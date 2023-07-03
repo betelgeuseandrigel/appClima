@@ -96,7 +96,7 @@ function twoShowWeatherData(information){
     </div>`
 
     currentTempEl.innerHTML = `
-            <img src="https://openweathermap.org/img/wn/${information.weather[0].icon}@4x.png" alt="weather icon" class="w-icon">
+            <img src="https://openweathermap.org/img/wn/${information.weather[0].icon}@2x.png" alt="weather icon" class="w-icon">
             <div class="other">
                 <div class="day">${window.moment(information.dt * 1000).format('dddd')}</div>
                 <div class="temp">Temp - ${information.main.temp}&#176; C</div>
