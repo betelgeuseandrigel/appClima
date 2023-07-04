@@ -190,3 +190,15 @@ body{
         overflow-y: scroll;
     }
 }
+
+
+@media only screen and (max-width:400px){
+
+    .future-forecast{
+        justify-content: start;
+        align-items: none;
+        overflow-y: scroll;
+        height: 50%;
+        }
+
+}
